@@ -1,0 +1,10 @@
+*.mp4
+*.png
+*.html
+*.xml
+*.apk
+android/results/log.html
+android/results/output.xml
+android/results/report.html
+android/output
+.idea
