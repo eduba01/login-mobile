@@ -20,7 +20,7 @@ CT01 - Validar pre-cadastro informando o código enviado para o e-mail
 
 CT01 - Validar pre-cadastro informando o código enviado por SMS
     [Documentation]   POC - Banco BMB  --------
-    ...            <<<   Y A M A N  >>>      
+    ...            <<<   Y A M A N  >>>      1
     [Tags]     CT-002      eduardo.azevedo     2
     Dado que estou na tela para informar o código SMS
     Quando informo o numero do celular
