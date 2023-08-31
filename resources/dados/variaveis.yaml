@@ -1,0 +1,18 @@
+###### VARIAVEIS USADAS PARA CONEXÃO ################################################
+
+Appium:
+	URL_APPIUM: http://127.0.0.1:4723/wd/hub
+	DeviceName: Android
+	AUTOMATION_NAME: UIAutomator2
+	MAIN: br.com.bancobmg.bancodigital.core.activities.SplashActivity
+	PACKAGE: br.com.bancobmg.bancodigital
+	PLATFORM_NAME: android
+
+
+cadastro:
+	name: Eduardo Azevedo TESTE
+	cpf: 275.682.798-39
+	email: eduardobnh@gmail.com
+	senha: 123456
+	mensagem:
+		cadastro com sucesso: Cliente cadastrado com sucesso
