@@ -9,9 +9,9 @@
 <arg>automationName=UIAutomator2</arg>
 <arg>app=${APP}</arg>
 <arg>platformVersion=${PLATFORM_VERSION}</arg>
-<arg>appActivity=br.com.bancobmg.bancodigital.core.activities.SplashActivity</arg>
-<arg>appWaitPackage=br.com.bancobmg.bancodigital</arg>
-<arg>appPackage=br.com.bancobmg.bancodigital</arg>
+<arg>appActivity=br.com.bancob.bancodigital.core.activities.SplashActivity</arg>
+<arg>appWaitPackage=br.com.bancob.bancodigital</arg>
+<arg>appPackage=br.com.bancob.bancodigital</arg>
 <arg>enableMultiWindows=${true}</arg>
 <arg>disableWindowAnimation=${true}</arg>
 <arg>autoGrantPermissions=${true}</arg>
@@ -31,28 +31,28 @@ Please check https://github.com/appium/appium/blob/master/docs/en/writing-runnin
 </kw>
 <status status="PASS" starttime="20230831 16:05:04.636" endtime="20230831 16:05:20.546"/>
 </kw>
-<kw name="Dado que estou na tela de cadastro do Meu BMG" library="cadastro">
+<kw name="Dado que estou na tela de cadastro do Meu b" library="cadastro">
 <kw name="Abrir a tela de cadastro" library="hooks">
 <kw name="Clicar no botao" library="hooks">
 <arg>${POPUP_BTN_FECHAR}</arg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:05:26.736" level="INFO">criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose
-criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose
-criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose
-criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose
-criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose
-criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose
-criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose
-criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose</msg>
+<msg timestamp="20230831 16:05:26.736" level="INFO">criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose
+criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose
+criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose
+criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose
+criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose
+criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose
+criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose
+criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose</msg>
 <status status="PASS" starttime="20230831 16:05:20.546" endtime="20230831 16:05:26.736"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230831 16:05:26.736" level="INFO">Clicking element 'id=br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose'.</msg>
-<msg timestamp="20230831 16:05:28.546" level="INFO">criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppClose</msg>
+<msg timestamp="20230831 16:05:26.736" level="INFO">Clicking element 'id=br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose'.</msg>
+<msg timestamp="20230831 16:05:28.546" level="INFO">criteria is br.com.bancob.bancodigital:id/imageViewBottomSheetPermissionsAppClose</msg>
 <status status="PASS" starttime="20230831 16:05:26.736" endtime="20230831 16:05:28.546"/>
 </kw>
 <status status="PASS" starttime="20230831 16:05:20.546" endtime="20230831 16:05:28.546"/>
@@ -62,14 +62,14 @@ criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppCl
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:05:29.134" level="INFO">criteria is br.com.bancobmg.bancodigital:id/button_fragment_logar_abra_sua_conta</msg>
+<msg timestamp="20230831 16:05:29.134" level="INFO">criteria is br.com.bancob.bancodigital:id/button_fragment_logar_abra_sua_conta</msg>
 <status status="PASS" starttime="20230831 16:05:28.546" endtime="20230831 16:05:29.134"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230831 16:05:29.134" level="INFO">Clicking element 'id=br.com.bancobmg.bancodigital:id/button_fragment_logar_abra_sua_conta'.</msg>
-<msg timestamp="20230831 16:05:29.292" level="INFO">criteria is br.com.bancobmg.bancodigital:id/button_fragment_logar_abra_sua_conta</msg>
+<msg timestamp="20230831 16:05:29.134" level="INFO">Clicking element 'id=br.com.bancob.bancodigital:id/button_fragment_logar_abra_sua_conta'.</msg>
+<msg timestamp="20230831 16:05:29.292" level="INFO">criteria is br.com.bancob.bancodigital:id/button_fragment_logar_abra_sua_conta</msg>
 <status status="PASS" starttime="20230831 16:05:29.134" endtime="20230831 16:05:29.292"/>
 </kw>
 <status status="PASS" starttime="20230831 16:05:28.546" endtime="20230831 16:05:29.292"/>
@@ -88,28 +88,28 @@ criteria is br.com.bancobmg.bancodigital:id/imageViewBottomSheetPermissionsAppCl
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:05:35.768" level="INFO">criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext</msg>
+<msg timestamp="20230831 16:05:35.768" level="INFO">criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext
+criteria is br.com.bancob.bancodigital:id/cpf_value_edittext</msg>
 <status status="PASS" starttime="20230831 16:05:29.292" endtime="20230831 16:05:35.768"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:05:35.768" level="INFO">Typing text '275.682.798-39' into text field 'id=br.com.bancobmg.bancodigital:id/cpf_value_edittext'</msg>
-<msg timestamp="20230831 16:05:36.350" level="INFO">criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext</msg>
+<msg timestamp="20230831 16:05:35.768" level="INFO">Typing text '275.682.798-39' into text field 'id=br.com.bancob.bancodigital:id/cpf_value_edittext'</msg>
+<msg timestamp="20230831 16:05:36.350" level="INFO">criteria is br.com.bancob.bancodigital:id/cpf_value_edittext</msg>
 <status status="PASS" starttime="20230831 16:05:35.768" endtime="20230831 16:05:36.350"/>
 </kw>
 <status status="PASS" starttime="20230831 16:05:29.292" endtime="20230831 16:05:36.350"/>
@@ -119,14 +119,14 @@ criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:05:37.053" level="INFO">criteria is br.com.bancobmg.bancodigital:id/continuar_button</msg>
+<msg timestamp="20230831 16:05:37.053" level="INFO">criteria is br.com.bancob.bancodigital:id/continuar_button</msg>
 <status status="PASS" starttime="20230831 16:05:36.350" endtime="20230831 16:05:37.053"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230831 16:05:37.053" level="INFO">Clicking element 'id=br.com.bancobmg.bancodigital:id/continuar_button'.</msg>
-<msg timestamp="20230831 16:05:37.602" level="INFO">criteria is br.com.bancobmg.bancodigital:id/continuar_button</msg>
+<msg timestamp="20230831 16:05:37.053" level="INFO">Clicking element 'id=br.com.bancob.bancodigital:id/continuar_button'.</msg>
+<msg timestamp="20230831 16:05:37.602" level="INFO">criteria is br.com.bancob.bancodigital:id/continuar_button</msg>
 <status status="PASS" starttime="20230831 16:05:37.053" endtime="20230831 16:05:37.602"/>
 </kw>
 <status status="PASS" starttime="20230831 16:05:36.350" endtime="20230831 16:05:37.602"/>
@@ -137,17 +137,17 @@ criteria is br.com.bancobmg.bancodigital:id/cpf_value_edittext</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:05:40.912" level="INFO">criteria is br.com.bancobmg.bancodigital:id/email_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/email_value_edittext
-criteria is br.com.bancobmg.bancodigital:id/email_value_edittext</msg>
+<msg timestamp="20230831 16:05:40.912" level="INFO">criteria is br.com.bancob.bancodigital:id/email_value_edittext
+criteria is br.com.bancob.bancodigital:id/email_value_edittext
+criteria is br.com.bancob.bancodigital:id/email_value_edittext</msg>
 <status status="PASS" starttime="20230831 16:05:37.602" endtime="20230831 16:05:40.912"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:05:40.912" level="INFO">Typing text 'eduardobnh@gmail.com' into text field 'id=br.com.bancobmg.bancodigital:id/email_value_edittext'</msg>
-<msg timestamp="20230831 16:05:42.626" level="INFO">criteria is br.com.bancobmg.bancodigital:id/email_value_edittext</msg>
+<msg timestamp="20230831 16:05:40.912" level="INFO">Typing text 'eduardobnh@gmail.com' into text field 'id=br.com.bancob.bancodigital:id/email_value_edittext'</msg>
+<msg timestamp="20230831 16:05:42.626" level="INFO">criteria is br.com.bancob.bancodigital:id/email_value_edittext</msg>
 <status status="PASS" starttime="20230831 16:05:40.912" endtime="20230831 16:05:42.626"/>
 </kw>
 <status status="PASS" starttime="20230831 16:05:37.602" endtime="20230831 16:05:42.626"/>
@@ -157,14 +157,14 @@ criteria is br.com.bancobmg.bancodigital:id/email_value_edittext</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:05:44.162" level="INFO">criteria is br.com.bancobmg.bancodigital:id/continuar_button</msg>
+<msg timestamp="20230831 16:05:44.162" level="INFO">criteria is br.com.bancob.bancodigital:id/continuar_button</msg>
 <status status="PASS" starttime="20230831 16:05:42.630" endtime="20230831 16:05:44.162"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230831 16:05:44.162" level="INFO">Clicking element 'id=br.com.bancobmg.bancodigital:id/continuar_button'.</msg>
-<msg timestamp="20230831 16:05:44.965" level="INFO">criteria is br.com.bancobmg.bancodigital:id/continuar_button</msg>
+<msg timestamp="20230831 16:05:44.162" level="INFO">Clicking element 'id=br.com.bancob.bancodigital:id/continuar_button'.</msg>
+<msg timestamp="20230831 16:05:44.965" level="INFO">criteria is br.com.bancob.bancodigital:id/continuar_button</msg>
 <status status="PASS" starttime="20230831 16:05:44.162" endtime="20230831 16:05:44.965"/>
 </kw>
 <status status="PASS" starttime="20230831 16:05:42.630" endtime="20230831 16:05:44.965"/>
@@ -302,7 +302,7 @@ criteria is com.google.android.gm:id/delete</msg>
 </kw>
 <kw name="Inserir texto" library="hooks">
 <arg>${EMAIL_INPUT_BUSCA}</arg>
-<arg>Banco Bmg, abertura de conta</arg>
+<arg>Banco b, abertura de conta</arg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
@@ -313,7 +313,7 @@ criteria is com.google.android.gm:id/delete</msg>
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:04.734" level="INFO">Typing text 'Banco Bmg, abertura de conta' into text field 'id=com.google.android.gm:id/open_search_view_edit_text'</msg>
+<msg timestamp="20230831 16:06:04.734" level="INFO">Typing text 'Banco b, abertura de conta' into text field 'id=com.google.android.gm:id/open_search_view_edit_text'</msg>
 <msg timestamp="20230831 16:06:06.859" level="INFO">criteria is com.google.android.gm:id/open_search_view_edit_text</msg>
 <status status="PASS" starttime="20230831 16:06:04.732" endtime="20230831 16:06:06.859"/>
 </kw>
@@ -474,18 +474,18 @@ Normal swipe fails to scale for different screen resolutions, this can be avoide
 <status status="PASS" starttime="20230831 16:06:21.295" endtime="20230831 16:06:21.713"/>
 </kw>
 <kw name="Clicar no elemento" library="hooks">
-<arg>${DEVICE_APP_BMG_TABLET}</arg>
+<arg>${DEVICE_APP_b_TABLET}</arg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:06:22.220" level="INFO">xpath criteria: //android.widget.TextView[@content-desc="Bmg"]</msg>
+<msg timestamp="20230831 16:06:22.220" level="INFO">xpath criteria: //android.widget.TextView[@content-desc="b"]</msg>
 <status status="PASS" starttime="20230831 16:06:21.713" endtime="20230831 16:06:22.220"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:22.220" level="INFO">Clicking element 'xpath=//android.widget.TextView[@content-desc="Bmg"]'.</msg>
-<msg timestamp="20230831 16:06:22.821" level="INFO">xpath criteria: //android.widget.TextView[@content-desc="Bmg"]</msg>
+<msg timestamp="20230831 16:06:22.220" level="INFO">Clicking element 'xpath=//android.widget.TextView[@content-desc="b"]'.</msg>
+<msg timestamp="20230831 16:06:22.821" level="INFO">xpath criteria: //android.widget.TextView[@content-desc="b"]</msg>
 <status status="PASS" starttime="20230831 16:06:22.220" endtime="20230831 16:06:22.821"/>
 </kw>
 <status status="PASS" starttime="20230831 16:06:21.713" endtime="20230831 16:06:22.821"/>
@@ -503,16 +503,16 @@ Normal swipe fails to scale for different screen resolutions, this can be avoide
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:06:23.901" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_1
-criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
+<msg timestamp="20230831 16:06:23.901" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_1
+criteria is br.com.bancob.bancodigital:id/digito_1</msg>
 <status status="PASS" starttime="20230831 16:06:22.832" endtime="20230831 16:06:23.901"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:23.907" level="INFO">Typing text '3' into text field 'id=br.com.bancobmg.bancodigital:id/digito_1'</msg>
-<msg timestamp="20230831 16:06:24.086" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
+<msg timestamp="20230831 16:06:23.907" level="INFO">Typing text '3' into text field 'id=br.com.bancob.bancodigital:id/digito_1'</msg>
+<msg timestamp="20230831 16:06:24.086" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_1</msg>
 <status status="PASS" starttime="20230831 16:06:23.902" endtime="20230831 16:06:24.086"/>
 </kw>
 <status status="PASS" starttime="20230831 16:06:22.831" endtime="20230831 16:06:24.086"/>
@@ -523,15 +523,15 @@ criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:06:24.846" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_2</msg>
+<msg timestamp="20230831 16:06:24.846" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_2</msg>
 <status status="PASS" starttime="20230831 16:06:24.086" endtime="20230831 16:06:24.846"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:24.846" level="INFO">Typing text '2' into text field 'id=br.com.bancobmg.bancodigital:id/digito_2'</msg>
-<msg timestamp="20230831 16:06:25.216" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_2</msg>
+<msg timestamp="20230831 16:06:24.846" level="INFO">Typing text '2' into text field 'id=br.com.bancob.bancodigital:id/digito_2'</msg>
+<msg timestamp="20230831 16:06:25.216" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_2</msg>
 <status status="PASS" starttime="20230831 16:06:24.846" endtime="20230831 16:06:25.216"/>
 </kw>
 <status status="PASS" starttime="20230831 16:06:24.086" endtime="20230831 16:06:25.217"/>
@@ -542,15 +542,15 @@ criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:06:25.753" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_3</msg>
+<msg timestamp="20230831 16:06:25.753" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_3</msg>
 <status status="PASS" starttime="20230831 16:06:25.217" endtime="20230831 16:06:25.753"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:25.756" level="INFO">Typing text '5' into text field 'id=br.com.bancobmg.bancodigital:id/digito_3'</msg>
-<msg timestamp="20230831 16:06:26.124" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_3</msg>
+<msg timestamp="20230831 16:06:25.756" level="INFO">Typing text '5' into text field 'id=br.com.bancob.bancodigital:id/digito_3'</msg>
+<msg timestamp="20230831 16:06:26.124" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_3</msg>
 <status status="PASS" starttime="20230831 16:06:25.753" endtime="20230831 16:06:26.125"/>
 </kw>
 <status status="PASS" starttime="20230831 16:06:25.217" endtime="20230831 16:06:26.125"/>
@@ -561,15 +561,15 @@ criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:06:26.921" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_4</msg>
+<msg timestamp="20230831 16:06:26.921" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_4</msg>
 <status status="PASS" starttime="20230831 16:06:26.125" endtime="20230831 16:06:26.921"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:26.925" level="INFO">Typing text '3' into text field 'id=br.com.bancobmg.bancodigital:id/digito_4'</msg>
-<msg timestamp="20230831 16:06:27.287" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_4</msg>
+<msg timestamp="20230831 16:06:26.925" level="INFO">Typing text '3' into text field 'id=br.com.bancob.bancodigital:id/digito_4'</msg>
+<msg timestamp="20230831 16:06:27.287" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_4</msg>
 <status status="PASS" starttime="20230831 16:06:26.921" endtime="20230831 16:06:27.288"/>
 </kw>
 <status status="PASS" starttime="20230831 16:06:26.125" endtime="20230831 16:06:27.288"/>
@@ -580,15 +580,15 @@ criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:06:28.070" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_5</msg>
+<msg timestamp="20230831 16:06:28.070" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_5</msg>
 <status status="PASS" starttime="20230831 16:06:27.288" endtime="20230831 16:06:28.070"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:28.072" level="INFO">Typing text '3' into text field 'id=br.com.bancobmg.bancodigital:id/digito_5'</msg>
-<msg timestamp="20230831 16:06:28.294" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_5</msg>
+<msg timestamp="20230831 16:06:28.072" level="INFO">Typing text '3' into text field 'id=br.com.bancob.bancodigital:id/digito_5'</msg>
+<msg timestamp="20230831 16:06:28.294" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_5</msg>
 <status status="PASS" starttime="20230831 16:06:28.070" endtime="20230831 16:06:28.294"/>
 </kw>
 <status status="PASS" starttime="20230831 16:06:27.288" endtime="20230831 16:06:28.294"/>
@@ -599,15 +599,15 @@ criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:06:29.091" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_6</msg>
+<msg timestamp="20230831 16:06:29.091" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_6</msg>
 <status status="PASS" starttime="20230831 16:06:28.295" endtime="20230831 16:06:29.091"/>
 </kw>
 <kw name="Input Text" library="AppiumLibrary">
 <arg>${element}</arg>
 <arg>${texto}</arg>
 <doc>Types the given `text` into text field identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:29.096" level="INFO">Typing text '1' into text field 'id=br.com.bancobmg.bancodigital:id/digito_6'</msg>
-<msg timestamp="20230831 16:06:29.452" level="INFO">criteria is br.com.bancobmg.bancodigital:id/digito_6</msg>
+<msg timestamp="20230831 16:06:29.096" level="INFO">Typing text '1' into text field 'id=br.com.bancob.bancodigital:id/digito_6'</msg>
+<msg timestamp="20230831 16:06:29.452" level="INFO">criteria is br.com.bancob.bancodigital:id/digito_6</msg>
 <status status="PASS" starttime="20230831 16:06:29.091" endtime="20230831 16:06:29.452"/>
 </kw>
 <status status="PASS" starttime="20230831 16:06:28.294" endtime="20230831 16:06:29.452"/>
@@ -617,14 +617,14 @@ criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
 <kw name="Wait Until Element Is Visible" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Waits until element specified with `locator` is visible.</doc>
-<msg timestamp="20230831 16:06:30.147" level="INFO">criteria is br.com.bancobmg.bancodigital:id/buttonLoginEmailTokenContinue</msg>
+<msg timestamp="20230831 16:06:30.147" level="INFO">criteria is br.com.bancob.bancodigital:id/buttonLoginEmailTokenContinue</msg>
 <status status="PASS" starttime="20230831 16:06:29.452" endtime="20230831 16:06:30.147"/>
 </kw>
 <kw name="Click Element" library="AppiumLibrary">
 <arg>${element}</arg>
 <doc>Click element identified by `locator`.</doc>
-<msg timestamp="20230831 16:06:30.162" level="INFO">Clicking element 'id=br.com.bancobmg.bancodigital:id/buttonLoginEmailTokenContinue'.</msg>
-<msg timestamp="20230831 16:06:30.520" level="INFO">criteria is br.com.bancobmg.bancodigital:id/buttonLoginEmailTokenContinue</msg>
+<msg timestamp="20230831 16:06:30.162" level="INFO">Clicking element 'id=br.com.bancob.bancodigital:id/buttonLoginEmailTokenContinue'.</msg>
+<msg timestamp="20230831 16:06:30.520" level="INFO">criteria is br.com.bancob.bancodigital:id/buttonLoginEmailTokenContinue</msg>
 <status status="PASS" starttime="20230831 16:06:30.147" endtime="20230831 16:06:30.520"/>
 </kw>
 <status status="PASS" starttime="20230831 16:06:29.452" endtime="20230831 16:06:30.520"/>
@@ -650,8 +650,8 @@ criteria is br.com.bancobmg.bancodigital:id/digito_1</msg>
 <kw name="Page Should Contain Element" library="AppiumLibrary">
 <arg>${IDENTIF_INPUT_CELULAR}</arg>
 <doc>Verifies that current page contains `locator` element.</doc>
-<msg timestamp="20230831 16:07:11.018" level="INFO">Current page contains element 'id=br.com.bancobmg.bancodigital:id/celular_value_edittext'.</msg>
-<msg timestamp="20230831 16:07:11.018" level="INFO">criteria is br.com.bancobmg.bancodigital:id/celular_value_edittext</msg>
+<msg timestamp="20230831 16:07:11.018" level="INFO">Current page contains element 'id=br.com.bancob.bancodigital:id/celular_value_edittext'.</msg>
+<msg timestamp="20230831 16:07:11.018" level="INFO">criteria is br.com.bancob.bancodigital:id/celular_value_edittext</msg>
 <status status="PASS" starttime="20230831 16:07:10.521" endtime="20230831 16:07:11.018"/>
 </kw>
 <status status="PASS" starttime="20230831 16:07:10.521" endtime="20230831 16:07:11.018"/>
@@ -890,7 +890,7 @@ qsGV19yiPOfjd5YiOyujy9e6/9G/4NsVa8Je87qb7wrZfunZxzBl0riQfZIkYeuO3fjqm5U4eLgE
 1TV1MOj1yMnOxKmnTMXiRfORm5PVrWsYSWV1Lb785jts2bYLR8or4XA6YTAYkJWRjtGjhmPG9Ek4
 dcZUxMUZwp7bm7L95sYl2Lv/EABg8cJ5ePje26KW8fZ7HsX3P2wGAEyfOhEvPP3wMb/fg4eK8fXy
 1di5ex9qauvh9niQk52JMaNG4OzFp2HyxLERu/P19v12JdbXo7auAd+tXocdu/ahqLgUFksLZFlG
-SooJYwpHYNGCOZg7e0bUinn77/rF55+DJb+/Dus2bMGy79Zi954D8Hg9+PyD1yM+tztcLhcsreEj
+SooJYwpHYNGCOZg7e0bUinn77/rF55+DJb+/Dus2by79Zi954D8Hg9+PyD1yM+tztcLhcsreEj
 NTUFySZTyOfidntgsVgAACNHDEfBkHzl5kPBkHy43W5s3rINFosFbrdHeZ4gCEg2mZCamoLGxiZY
 rC1wuVxISEg45rIS0Y8PAwgRRVQ4chieefIB/Pr622Cz2QEA/3rjffz03MUwJiX26Fw7du3DI088
 j6qa2pD9Ho8XTc0WbN62C2+9+xFuuOaqPit/d9TWNeDhJ57Dth17Qva7XG40NVuwZ99B/PP1d/B/
@@ -1720,7 +1720,7 @@ W+gmFa2amhrFYjEFAgEZhrHP723blmVZMk1TbW1t+vjHP16AVg5ce3u7Nm7cqMbGRiWTSZWXl2vK
 lCmaOnVqj//eoez9999XLBZTMBiUYRj7tN+2bdm2LdM01d7erpkzZxaopdlJJpMKh8OFbkZOrV+/
 XmVlZQoGg/1uW+3t7Wnz2MBfhmGovLxcoVBIgUCAuxqiqHAGBADyIBaL6eCDDy50M9CHkRY+AGC4
 IG4DAAAA8A0BBAAAAIBvCCAAAAAAfEMAAQAAAOAbAggAAAAA3xBAAAAAAPiGAAIAAADANwQQAAAA
-AL4hgKBoGYYh27YL3YyiZNt2VrOBU6vCoVbDx0BqhcLh80cxI4CgaBmGoc7OzkI3oyjF4/GsO0rU
+AL4hgKBoGYYh27YL3YyiZNt2VrOBU6vCoVbDx0BqhcLh80cxI4Cgaboc7OzkI3oyjF4/GsO0rU
 qjAGUqt4PJ7HFqE3nZ2dBJBhwrIsPn8UNQIIilYgEFBTU1Ohm1GUWlpaFAhk/vUTCATU3Nycxxah
 N83NzdRqmBhIrVAYlmXx+aOo8b8fRSsQCGjXrl0MF/GZbdtqbGzMuqNUX19PrXxm27YaGhqyrlVD
 QwO18plt26qvr8+6VnSCC4MAgmLH/34Ule6nvG3b1saNGwvUmuK0ZcuWAa+7adOmHLYE/amtrXUf
@@ -1746,7 +1746,7 @@ Su3t7YrH44VuyogXjUZVVlaWNgt9NkzTVCQSUWVlJaEjj2zb1u7du5VIJAZVq7a2NrYrH+Riu6JW
 /ohGo4rFYgqFOP6L4kYMR1Fjx+uveDyutra2AR1ddcJHVVUV4SPPDMNQVVWVIpGITNPMen22K385
 29VAamVZFrXy0WBqBYwkBBAULdu23SEH8E88HldnZ2dW69i2LcuyVFlZmadWoSeVlZXu9QCZcrYr
 OrT+cj7zbK/b6OzspFY+SyQSA6oVMJIQQFCUbNtWKpVix1sgiUQi4yOAtm3LNE2VlZVx5sNnhmGo
-vLw8qzNWzrUE8F88Hpdpmhl3bE3T5ABMgcTjcaVSKUIIihYBBEXHubuLaZqcBi+QVCqVUUfJW6tY
+vLw8qzNWzrUE8F88Hpdpmhl3bE3T5AbcTjcaVSKUIIihYBBEXHubuLaZqcBi+QVCqVUUfJW6tY
 LOZT6+AVi8Uy7ig5wZ7tqjCc77RM7mDlbFepVMqn1sErm1oBIxEBBEXHGc7D0afCcWqQ6Wud6z/g
 v3A4nNFtWZ3fZztkC7njbCuZfv7UqnCcsE4NUKwIICgqzhe9s6NG4WTTqTVNk+FXBWIYRsadWrar
 wsvkqLo3LKJwvNsVIQTFhgCCouPseNn5FlYmnSTnT2pVWJkOE2E4SeF5j6hnEkJQON5JH4FiQwBB
@@ -1855,7 +1855,8 @@ a4yQAAAAAElFTkSuQmCC
 <status status="PASS" starttime="20230831 16:07:11.019" endtime="20230831 16:07:12.675"/>
 </kw>
 <doc>POC - Banco BMB  --------
-&lt;&lt;&lt;   Y A M A N  &gt;&gt;&gt;      
+&lt;&lt;&lt;   Y A M A N  &gt;&gt;&gt;      
+
 </doc>
 <tag>1</tag>
 <tag>CT-001</tag>
