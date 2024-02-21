@@ -1,4 +1,4 @@
-![Robot Framework](https://openjsf.org/wp-content/uploads/sites/84/2019/10/appium-logo-vertical-color_large_square.png)
+![Robot Framework](https://robotframework.org/img/RF.svg)
 
 ## Testando uma aplicação Mobile   <br />
   
