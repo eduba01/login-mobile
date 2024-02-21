@@ -53,7 +53,7 @@ Excluir e-mail
 Buscar o codigo no e-mail
     Clicar no elemento            ${EMAIL_CAMPO_BUSCA} 
     Clicar no elemento            ${EMAIL_TXT_VIEW} 
-    Inserir texto                 ${EMAIL_INPUT_BUSCA}       Banco Bmg, abertura de conta
+    Inserir texto                 ${EMAIL_INPUT_BUSCA}       Banco b, abertura de conta
     Clicar no botão ENTER
     Click Element                 ${EMAIL_RECEBIDO}
     Pegar o codigo
@@ -80,7 +80,7 @@ Converter o código em lista
  
     Clicar no botão HOME
 
-    Clicar no elemento    ${DEVICE_APP_BMG_TABLET}    # REABRIR O APP DO BANCO
+    Clicar no elemento    ${DEVICE_APP_b_TABLET}    # REABRIR O APP DO BANCO
     Inserir o código    ${COD_1}    ${COD_2}    ${COD_3}    ${COD_4}    ${COD_5}    ${COD_6}
     Log To Console   codigo: ${CODIGOS_LISTA}
 
