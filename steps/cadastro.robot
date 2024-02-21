@@ -6,7 +6,7 @@ Resource        ../resources/base.robot
  
 *** Keywords ***
  
-Dado que estou na tela de cadastro do Meu BMG
+Dado que estou na tela de cadastro
     Abrir a tela de cadastro        
  
 Quando informo o e-mail para o pre-cadastro da conta
